@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <br>
+    <div class="calbox">
+        <div class="row">
+            <div class="input">
+                <input type="text" name="display" id="display" > 
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" class="number">
+                <span>7</span>
+            </button>
+            <button type="button" class="number">
+                <span>8</span>
+            </button> 
+            <button type="button" class="number">
+                    <span>9</span>
+            </button>    
+            <button class="special" id="AC">
+                <span>AC</span>
+            </button>    
+        </div>
+
+        <div class="row">
+            <button type="button" class="number">
+                <span>4</span>
+            </button>
+            <button type="button" class="number">
+                <span>5</span>
+            </button> 
+            <button type="button" class="number">
+                    <span>6</span>
+            </button>   
+            <button class="operation">
+                <span>+</span>
+            </button>      
+        </div>
+
+        <div class="row">
+            <button type="button" class="number">
+                <span>1</span>
+            </button>
+            <button type="button" class="number">
+                <span>2</span>
+            </button> 
+            <button type="button" class="number">
+                    <span>3</span>
+            </button>  
+            <button class="operation">
+                <span>-</span>
+            </button>       
+        </div>
+
+        <div class="row">
+            <button style="background-color: white; border: none;outline: none;cursor: default;">
+                <span></span>
+            </button>
+            <button id="zero">
+                <span>0</span>
+            </button>
+            <button style="background-color: white; border: none;outline: none;cursor: default;">
+                <span></span>
+            </button>
+            <button class="operation">
+                <span>=</span>
+            </button> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
